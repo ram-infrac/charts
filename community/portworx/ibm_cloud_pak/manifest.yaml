@@ -11,10 +11,10 @@ images:
   references:
   - repository: px-enterprise:2.5.1-amd64
     pull-repository: portworx/px-enterprise:2.5.1
-- image: openstorage/stork:2.3.3
+- image: openstorage/stork:2.4.2.1
   references:
-  - repository: stork:2.3.3-amd64
-    pull-repository: openstorage/stork:2.3.3
+  - repository: stork:2.4.2.1-amd64
+    pull-repository: openstorage/stork:2.4.2.1
 - image: portworx/lh-config-sync:2.0.5
   references:
   - repository: lh-config-sync:2.0.5-amd64
